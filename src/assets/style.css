@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+body{
+    color: #666666;
+    font-family: 'Poppins';
+}
+.text-c2{
+    color: #7480ff ;
+    font-weight: 500;
+}
+
+.op2{
+    opacity: 0.2;
+}
+.box_bgcolor{
+    background-color:#ececec;
+    text-align: center;
+}
+.box_title {
+    font-size: .9em;
+    color: #666666;
+}
+.Unique.box_bgcolor button{
+    width: 44%;
+    font-size: 0.6em;
+    padding: 5px;
+    margin: 5px;
+}
+.Unique.box_bgcolor button:hover{
+    border: 1px solid #666666;
+    border-radius: 5px;
+}
+.Unique.box_bgcolor h2{
+    color: #7480ff;
+    font-weight: bold;
+}
+.Unique span{
+    color: #666666;
+    font-size: 0.7em;
+    margin-left: 10px;
+}
+.visitor_count h2{
+    font-weight: 600;
+    color: #666666;
+}
+.visitor_count h2 small{
+    color: #7480ff;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 0.7em;
+}
+.visitor_count .returningbox {
+    height: 13px;
+    width: 13px;
+    background: #7480ff;
+    display: inline-block;
+}
+
+.first_time .returningbox {
+    height: 13px;
+    width: 13px;
+    background: #69c9d6;
+    display: inline-block;
+}
+.first_time h2{font-weight: 600;}
+.first_time h2 small{
+    color: #69c9d6;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 0.7em;
+}
+table.visitor_table th {
+    color: #c1c1c1;
+    border-top: 0;
+    border-bottom: none;
+    text-align: center;
+    font-weight: 300;
+}
+.visitor_table tr:first-child td{
+    border-top: none;
+}
+.visitor_table td{
+    text-align: center;
+    color: #666666;
+}
+.sample tr td span svg{
+    max-width:20px;
+}
